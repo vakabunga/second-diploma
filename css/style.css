@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: Open Sans, Arial, san-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    background-image: url(img/football_767.jpg);
+    background-color: #5e42b0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-width: 320px;
+    flex-shrink: 0;
+    min-height: 568px;
+}
+
+.header::after {
+    content: "";
+    background-color: #0a0e34;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+}
+
+.logo {
+
+}
+
+.title {
+
+}
+
+.title_left {
+
+}
+
+.title_right {
+
+}
