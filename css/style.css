@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    background-image: url(img/football_767.jpg);
+    background-image: url(../img/football_767.jpg);
     background-color: #5e42b0;
     background-repeat: no-repeat;
     background-size: cover;
