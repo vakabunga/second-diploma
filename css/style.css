@@ -61,9 +61,12 @@ body {
 .title {
     color: #fff;
     font-size: 28px;
-    text-transform: uppercase;
     font-weight: bold;
-    margin-top: 206px;
+    margin-top: 137px;
+}
+
+.title_text {
+    text-transform: uppercase;
 }
 
 .title_left {
@@ -72,5 +75,17 @@ body {
 
 .title_right {
     margin-left: 63px;
+    display: inline-block;
+}
 
+.button {
+    
+}
+
+.button_text {
+
+}
+
+.button_brand {
+    font-weight: bold;
 }
