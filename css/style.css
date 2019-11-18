@@ -79,7 +79,8 @@ body {
 }
 
 .buttons {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     width: calc(100% - 40px);
 }
 
