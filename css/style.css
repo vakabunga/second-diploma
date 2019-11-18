@@ -44,6 +44,9 @@ body {
 .container {
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -60,12 +63,14 @@ body {
     font-size: 28px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 206px;
 }
 
 .title_left {
-
+    margin-left: 18px;
 }
 
 .title_right {
+    margin-left: 63px;
 
 }
