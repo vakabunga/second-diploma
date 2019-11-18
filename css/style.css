@@ -78,14 +78,20 @@ body {
     display: inline-block;
 }
 
+.buttons {
+    display: block;
+}
+
 .button {
     background-color: #5e42b0;
-    display: block;
     border-radius: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .brand_logo {
     fill: white;
+    width: auto;
     height: 24px;
 }
 
@@ -95,5 +101,4 @@ body {
 
 .button_brand {
     font-weight: bold;
-
 }
