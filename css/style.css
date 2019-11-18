@@ -30,7 +30,7 @@ body {
     min-height: 568px;
 }
 
-.header::before {
+.header::after {
     content: "";
     background-color: #0a0e34;
     position: absolute;
