@@ -79,7 +79,12 @@ body {
 }
 
 .button {
-    
+    color: #5e42b0;
+    display: flex;
+}
+
+.brand_logo {
+    fill: white;
 }
 
 .button_text {
