@@ -49,7 +49,7 @@ body {
 .logo {
     fill: #fff;
     width: 133px;
-    text-align: center;
+    justify-content: center;
     margin-top: 33px;
 }
 
