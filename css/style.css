@@ -80,6 +80,7 @@ body {
 
 .buttons {
     display: block;
+    widows: calc(100%-40px);
 }
 
 .button {
@@ -90,6 +91,7 @@ body {
 }
 
 .brand_logo {
+    display: flex;
     fill: white;
     width: auto;
     height: 24px;
