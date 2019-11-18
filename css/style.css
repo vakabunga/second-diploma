@@ -58,6 +58,8 @@ body {
 .title {
     color: #fff;
     font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .title_left {
