@@ -79,8 +79,9 @@ body {
 }
 
 .button {
-    color: #5e42b0;
+    background-color: #5e42b0;
     display: flex;
+    border: ;
 }
 
 .brand_logo {
@@ -93,4 +94,5 @@ body {
 
 .button_brand {
     font-weight: bold;
+    height: 24px;
 }
