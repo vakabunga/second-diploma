@@ -79,31 +79,26 @@ body {
 
 .buttons {
     display: flex;
-    flex-wrap: wrap;
-    width: calc(100% - 40px);
 }
 
 .button {
-    background-color: #5e42b0;
+    border: 1px solid black;
     border-radius: 24px;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: flex;
+    vertical-align: center;
 }
 
-.brand_logo {
-    display: flex;
-    fill: white;
+.button_brand_logo {
     width: auto;
-    height: 24px;
+    height: 36px;
+    fill: white;
 }
 
 .button_text {
-    font-size: 8px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.button_brand {
+.button_brand_text {
     font-weight: bold;
-    font-size: 8px;
-    margin: 0;
 }
