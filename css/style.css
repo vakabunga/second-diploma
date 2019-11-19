@@ -90,11 +90,12 @@ body {
 
 .button_brand_logo {
     width: auto;
-    height: 36px;
+    height: 24px;
     fill: white;
 }
 
 .button_text {
+    font-size: 8px;
     display: flex;
     flex-direction: column;
 }
