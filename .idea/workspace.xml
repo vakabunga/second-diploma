@@ -10,10 +10,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1TZLXW1PJamV7r0IVG8UbYfZSlL" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,6 +45,7 @@
       <updated>1573662711613</updated>
       <workItem from="1573662716098" duration="892000" />
       <workItem from="1574092241117" duration="482000" />
+      <workItem from="1574092769933" duration="33802000" />
     </task>
     <servers />
   </component>

@@ -24,9 +24,11 @@ body {
     background-color: #0a0e34;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
     min-width: 320px;
     flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header::after {
@@ -50,29 +52,34 @@ body {
     display: flex;
     fill: #fff;
     width: 133px;
-    margin-top: 33px;
+    padding-top: 33px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
     color: #fff;
     font-size: 28px;
     font-weight: bold;
-    margin-top: 137px;
+    margin-top: 132px;
+    margin-bottom: 85px;
 }
 
 .title_text {
     text-transform: uppercase;
 }
 
-.title_left {
+.title_first {
+    display: flex;
     margin-left: 18px;
+    margin-bottom: 21px;
 }
 
-.title_right {
+.title_second, .title_third {
+    display: flex;
     margin-left: 63px;
-    /*display: inline-block;*/
 }
 
 .buttons {
@@ -81,7 +88,7 @@ body {
 }
 
 .button {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 24px;
     display: flex;
     align-items: center;
@@ -91,6 +98,11 @@ body {
     height: 35px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button:nth-child(2) {
+    margin-top: 14px;
+    margin-bottom: 84px;
 }
 
 .button_brand_logo {
@@ -104,8 +116,14 @@ body {
     font-size: 8px;
     display: flex;
     flex-direction: column;
+    width: 78px;
 }
 
 .button_brand_text {
     font-weight: bold;
+}
+
+.section_athletes {
+    display: flex;
+    flex-direction: column;
 }
