@@ -1,22 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 @font-face {
     font-family: "OpenSans";
-    src: url(fonts/OpenSans-Regular.woff);
+    src: url(../fonts/OpenSans-Regular.woff);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "OpenSans";
-    src: url(fonts/OpenSans-Bold.woff);
+    src: url(../fonts/OpenSans-Bold.woff);
     font-weight: 700;
     font-style: normal;
 }
 
 body {
-    margin: 0;
-    font-family: Open Sans, Arial, san-serif;
+    font-family: OpenSans, Arial, san-serif;
     overflow-x: hidden;
+    min-width: 320px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 }
 
 .header {
@@ -26,9 +33,6 @@ body {
     background-size: cover;
     position: relative;
     min-width: 320px;
-    flex-shrink: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .header::after {
@@ -62,13 +66,13 @@ body {
     flex-direction: column;
     color: #fff;
     font-size: 28px;
-    font-weight: bold;
     margin-top: 132px;
     margin-bottom: 85px;
 }
 
 .title_text {
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .title_first {
@@ -77,9 +81,11 @@ body {
     margin-bottom: 21px;
 }
 
-.title_second, .title_third {
+.title_second {
     display: flex;
-    margin-left: 63px;
+    padding-left: 63px;
+    box-sizing: border-box;
+    width: 320px;
 }
 
 .buttons {
@@ -98,6 +104,8 @@ body {
     height: 35px;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
+    color: #fff;
 }
 
 .button:nth-child(2) {
@@ -117,13 +125,158 @@ body {
     display: flex;
     flex-direction: column;
     width: 78px;
+    font-weight: normal;
 }
 
-.button_brand_text {
-    font-weight: bold;
-}
-
-.section_athletes {
+.section_ppl {
     display: flex;
     flex-direction: column;
+}
+
+.section_title {
+    font-size: 50px;
+    color: #e7e7e7;
+    margin-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 2px;
+}
+
+.image_container {
+    position: relative;
+}
+
+.image {
+    position: absolute;
+}
+
+.image_footballer {
+    left: 70px;
+}
+
+.connection {
+    background-color: #fafafa;
+    margin-top: 225px;
+}
+
+.sub_title {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.first_sub_title {
+    padding-top: 83px;
+}
+
+.sub_title_number {
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 3px;
+    position: relative;
+}
+
+.sub_title_number::after {
+    content: '';
+    background-color: #5e42b0;
+    width: 17px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    bottom: 7px;
+}
+
+.sub_title_text {
+    font-size: 23px;
+    color: #c1c1c1;
+}
+
+.common_text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.collaboration {
+    background-color: #f5f4f9;
+}
+
+.growth_athletes {
+    background-color: #5e42b0;
+}
+
+.sub_title_number_growth {
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 3px;
+    position: relative;
+    color: #8765dd;
+}
+
+.sub_title_number_growth::after {
+    content: '';
+    background-color: #fff;
+    width: 17px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    bottom: 7px;
+}
+
+.text_growth {
+    color: #fff;
+}
+
+.growth_players {
+    background-color: #090c35;
+}
+
+.image_action {
+    width: 100vw;
+    min-width: 320px;
+}
+
+.sub_title_action {
+    /*position: relative;*/
+}
+
+.sub_title_action_number {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -58px;
+    left: 20px;
+    background-color: #5e42b0;
+    color: #fff;
+}
+
+.sub_title_action_number::after {
+    content: '';
+    background-color: #8f7bc8;
+    width: 17px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: 27px;
+}
+
+.span_sub_title_action_number {
+    display: block;
+    padding-top: 20px;
+    padding-left: 27px;
+}
+
+.sub_title_action_text {
+    font-size: 28px;
+    color: #e7e7e7;
+    padding-left: 20px;
+    /*padding-top: 34px;*/
+    margin-bottom: 14px;
+}
+
+.common_text_action {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
