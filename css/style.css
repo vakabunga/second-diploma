@@ -328,11 +328,16 @@ body {
     fill: white;
 }
 
+.download_text {
+    width: 280px; /* иначе mr и ml auto не срабатывают */
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .first_line {
     display: flex;
     font-size: 32px;
     color: white;
-    margin: 0 20px;
     letter-spacing: 0.04em;
 }
 
@@ -340,5 +345,5 @@ body {
     display: flex;
     font-size: 14px;
     color: #9b8ec1;
-    margin: 0 20px 44px; /* 44px, а не 77, потому что 33px это марджин топ в контейнере логотипа*/
+    margin: 0 auto 44px; /* 44px, а не 77, потому что 33px это марджин топ в контейнере логотипа*/
 }
