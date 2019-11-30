@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    letter-spacing: 0.05em;
 }
 
 
@@ -52,13 +53,14 @@ body {
     box-sizing: border-box;
 }
 
-.logo {
+.svg_text {
     display: flex;
+}
+
+.logo_text {
     fill: #fff;
     width: 133px;
-    padding-top: 33px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 33px auto 10px;
 }
 
 .title {
@@ -66,7 +68,7 @@ body {
     flex-direction: column;
     color: #fff;
     font-size: 28px;
-    margin-top: 132px;
+    margin-top: 122px; /* отдаем 10px на margin-top для logo_text*/
     margin-bottom: 85px;
 }
 
@@ -124,7 +126,7 @@ body {
     font-size: 8px;
     display: flex;
     flex-direction: column;
-    width: 78px;
+    width: 84px;
     font-weight: normal;
 }
 
@@ -235,6 +237,7 @@ body {
 .image_action {
     width: 100vw;
     min-width: 320px;
+    max-width: 768px;
 }
 
 .sub_title_action {
@@ -272,11 +275,68 @@ body {
     color: #e7e7e7;
     padding-left: 20px;
     /*padding-top: 34px;*/
-    margin-bottom: 14px;
+    /*margin-bottom: 14px;*/
+    position: relative;
+    top: -24px;
 }
 
-.common_text_action {
+.common_text_action, .common_text_action_last {
     font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 77px;
+}
+
+.common_text_action_last {
+    padding-bottom: 67px;
+}
+
+.footer {
+    background-image: url(../img/game_767.jpg);
+    background-color: #0a0e34;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-width: 320px;
+    padding-top: 99px;
+}
+
+.footer::after {
+    content: "";
+    background-color: #0a0e34;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+}
+
+.svg {
+    display: flex;
+    width: 72px;
+    height: 74px;
+    border-radius: 12px;
+    margin: 0 auto 59px;
+    background-color: #6a4cc3;
+}
+
+.logo {
+    margin: 12px 6px;
+    fill: white;
+}
+
+.first_line {
+    display: flex;
+    font-size: 32px;
+    color: white;
+    margin: 0 20px;
+    letter-spacing: 0.04em;
+}
+
+.second_line {
+    display: flex;
+    font-size: 14px;
+    color: #9b8ec1;
+    margin: 0 20px 44px; /* 44px, а не 77, потому что 33px это марджин топ в контейнере логотипа*/
 }
