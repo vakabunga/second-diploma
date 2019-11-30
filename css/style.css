@@ -61,7 +61,7 @@ body {
 .logo_text {
     fill: #fff;
     width: 133px;
-    margin: 0 auto 10px;
+    margin: 0 auto;
 }
 
 .title {
@@ -69,7 +69,7 @@ body {
     flex-direction: column;
     color: #fff;
     font-size: 28px; /* 28px 10vw*/
-    margin-top: 122px; /* отдаем 10px на margin-top для logo_text*/
+    margin-top: 132px;
     margin-bottom: 85px;
 }
 
@@ -111,7 +111,7 @@ body {
     color: #fff;
 }
 
-.button:nth-child(2) {
+.button_second { /* нельзя использовать nth-child, потому что не перебить другим стилем mb*/
     margin-top: 14px;
     margin-bottom: 84px;
 }
@@ -293,6 +293,7 @@ body {
 }
 
 .footer {
+    box-sizing: border-box;
     background-image: url(../img/game_767.jpg);
     background-color: #0a0e34;
     background-repeat: no-repeat;
@@ -300,6 +301,7 @@ body {
     position: relative;
     min-width: 320px;
     padding-top: 99px;
+    padding-bottom: 10px;
 }
 
 .footer::after {
@@ -345,5 +347,9 @@ body {
     display: flex;
     font-size: 14px;
     color: #9b8ec1;
-    margin: 0 auto 44px; /* 44px, а не 77, потому что 33px это марджин топ в контейнере логотипа*/
+    margin: 0 auto 77px;
+}
+
+.last_margin {
+    margin-bottom: 51px;
 }
