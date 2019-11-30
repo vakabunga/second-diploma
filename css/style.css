@@ -68,7 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #fff;
-    font-size: 28px;
+    font-size: 28px; /* 28px 10vw*/
     margin-top: 122px; /* отдаем 10px на margin-top для logo_text*/
     margin-bottom: 85px;
 }
@@ -80,13 +80,13 @@ body {
 
 .title_first {
     display: flex;
-    margin-left: 18px;
+    margin-left: 18px; /* 18px 5vw*/
     margin-bottom: 21px;
 }
 
 .title_second {
     display: flex;
-    padding-left: 63px;
+    padding-left: 64px; /* 63px 20vw*/
     box-sizing: border-box;
     width: 320px;
 }
