@@ -55,13 +55,12 @@ body {
 
 .svg_text {
     display: flex;
-    padding-top: 33px;
 }
 
 .logo_text {
     fill: #fff;
     width: 133px;
-    margin: 0 auto;
+    margin: 32px auto 0;
 }
 
 .title {
